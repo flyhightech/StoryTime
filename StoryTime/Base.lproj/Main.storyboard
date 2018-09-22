@@ -46,6 +46,9 @@
                                                     <constraint firstAttribute="height" constant="50" id="DWb-Ci-2M8"/>
                                                 </constraints>
                                                 <state key="normal" title="Button"/>
+                                                <connections>
+                                                    <action selector="choiceOneBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tax-vF-1JJ"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xq9-Aa-WUr">
                                                 <rect key="frame" x="189" y="0.0" width="150" height="50"/>
@@ -55,6 +58,9 @@
                                                     <constraint firstAttribute="height" constant="50" id="ibk-jf-9oP"/>
                                                 </constraints>
                                                 <state key="normal" title="Button"/>
+                                                <connections>
+                                                    <action selector="choiceTwoBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SQS-cv-UYq"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -72,6 +78,11 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="choiceOneText" destination="swQ-De-3UA" id="5ol-oK-GgX"/>
+                        <outlet property="choiceTwoText" destination="Xq9-Aa-WUr" id="ksH-5m-iA0"/>
+                        <outlet property="storyTest" destination="tOJ-hg-o0R" id="WbV-xB-HoT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
