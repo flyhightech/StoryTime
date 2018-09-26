@@ -23,7 +23,7 @@
                                 <color key="backgroundColor" red="0.46274509803921571" green="0.68235294117647061" blue="0.77647058823529413" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="xQz-yA-dkm">
-                                <rect key="frame" x="16" y="256.33333333333331" width="343" height="299.99999999999994"/>
+                                <rect key="frame" x="16" y="256" width="343" height="300"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="tOJ-hg-o0R">
                                         <rect key="frame" x="0.0" y="0.0" width="343" height="220"/>
@@ -38,11 +38,11 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="39" translatesAutoresizingMaskIntoConstraints="NO" id="4HC-Sd-KTh">
                                         <rect key="frame" x="2" y="250" width="339" height="50"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="swQ-De-3UA">
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="swQ-De-3UA">
                                                 <rect key="frame" x="0.0" y="0.0" width="150" height="50"/>
                                                 <color key="backgroundColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="150" id="9Nd-hl-TeV"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="9Nd-hl-TeV"/>
                                                     <constraint firstAttribute="height" constant="50" id="DWb-Ci-2M8"/>
                                                 </constraints>
                                                 <state key="normal" title="Button"/>
@@ -50,11 +50,11 @@
                                                     <action selector="choiceOneBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tax-vF-1JJ"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xq9-Aa-WUr">
+                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xq9-Aa-WUr">
                                                 <rect key="frame" x="189" y="0.0" width="150" height="50"/>
                                                 <color key="backgroundColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="150" id="CB6-QL-RhD"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="CB6-QL-RhD"/>
                                                     <constraint firstAttribute="height" constant="50" id="ibk-jf-9oP"/>
                                                 </constraints>
                                                 <state key="normal" title="Button"/>
